@@ -1,4 +1,39 @@
+"""
 Design a calculator which will correctly solve all the problems except    
 the following ones:
 45 * 3 = 555, 56+9 = 77, 56/6 = 4
 Your program should take operator  and the two numbers as input from the user and then return the result"""
+
+rint("Enter first number")
+num1=int(input())
+print("Enter second number")
+num2=int(input())
+print("Enter operator"'+,-,*,/,%,**')
+num3=input()
+
+if num1==45 and num2==3 and num3=='*':
+    print("555")
+elif num1==56 and num2==9 and num3=='+':
+    print("77")
+elif num1==56 and num2==6 and num3=='/':
+    print("4")
+elif num3=='+':
+    plus=num1+num2
+    print("your answer is",plus)
+elif num3=='-':
+    minus=num1-num2
+    print("your answer is",minus)
+elif num3=='*':   
+    mulitiply=num1*num2
+    print("your answer is",mulitiply)
+elif num3=='/':
+    divide=num1/num2
+    print("your answer is",divide)
+elif num3=='%':
+    modulus=num1%num2
+    print("your answer is",modulus)
+elif num3=='**':
+    power=num1**num2
+    print("your answer is",power)
+else:
+    print("Error! please check your input")
