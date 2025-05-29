@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shahad Pathan - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0078d7;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #0078d7;
+      padding-bottom: 5px;
+    }
+    .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .projects li {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .projects a {
+      color: #0078d7;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shahad Pathan</h1>
+    <p>Frontend Developer | Data Scientist | Computer Engineering Student</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am Shahad Pathan; currently I am studying Computer Engineering in GTU-SET. I have a basic knowledge of Python, HTML, and CSS. I want to become a successful Data Scientist.</p>
+  </section>
+
+  <section class="projects">
+    <h2>I Did 1 Project in Hackathon Based on Frontend Development</h2>
+    <ul>
+      <!-- Add your project details here -->
+    </ul>
+  </section>
+
+  <section class="skills">
+    <h2>Skills & Tools</h2>
+    <p>Python, SQL, Pandas, BigQuery, Power BI, Tableau, Git, Cloud (AWS/GCP)</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: 241370107053@gtu.edu.in</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shahad-pathan-a909972ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/shahad-pathan</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Shahad Pathan. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
